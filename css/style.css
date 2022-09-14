@@ -1,0 +1,269 @@
+body {
+  width: 1300px;
+  line-height: 70px;
+  margin: 0 auto;
+}
+
+
+
+.header__logo {
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+  color: #55bbbb;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 15%;
+}
+
+.firstview {
+  position: relative;
+}
+
+
+.firstview-text {
+  margin-left: 13%;
+  font-family: "Shippori Mincho", serif;
+  position: absolute;
+  z-index: 2;
+}
+
+.firstview-ttl {
+  font-size: 40px;
+}
+
+.font-up {
+  font-size: 64px;
+  color: #55bbbb;
+
+}
+
+.font-up2 {
+  font-size: 64px;
+}
+
+.pickup-ttl {
+  background-color: #ff4384;
+  font-size: 22px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
+.big-ttl {
+  display: flex;
+  margin-top: 10px;
+}
+
+.pickup-ttl2 {
+  line-height: 30px;
+  margin-left: 1%;
+}
+
+
+.pickup-text {
+  color: #55bbbb;
+
+}
+
+.pickup-money {
+  color: #ff4384;
+  font-size: 20px;
+}
+
+.pickup-price {
+  font-size: 40px;
+}
+
+.pickup-link {
+  font-size: 22px;
+  background-color: #ff4384;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 45%;
+  text-align: center;
+  color: azure;
+  box-shadow: 0px 0px 15px #ff4384;
+}
+
+.i1 {
+  width: 60%;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+.second-ttl {
+  background-color: #55bbbb;
+  display: inline-block;
+  text-align: center;
+  width: 1000px;
+  margin-left: 170px;
+  color: azure;
+  font-size: 22px;
+  font-family: "Shippori Mincho", serif;
+  position: relative;
+}
+
+.second-span {
+  font-size: 33px;
+
+}
+
+.second-ttl::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  content: "";
+  border: 30px solid transparent;
+  border-top: 20px solid #55bbbb;
+}
+
+.trouble {
+  display: flex;
+  margin: 60px 300px 0;
+}
+
+.news__list {
+  border: solid 2px #55bbbb;
+  border-radius: 30px;
+  font-size: 22px;
+  color: #55bbbb;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  height: 200px;
+  padding: 20px 0 10px;
+  margin-left: 40px;
+
+}
+
+.text1 {
+  border-bottom: solid 2px #55bbbb;
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+  position: relative;
+}
+
+.text1::before {
+  content: url(../img/check.svg);
+  position: absolute;
+  right: 340px;
+
+}
+
+.third-ttl {
+  margin-left: 180px;
+  display: inline-block;
+  width: 76.923077%;
+  background-color: #55bbbb;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Shippori Mincho", serif;
+  color: azure
+}
+
+.third-ttl-span1,
+.third-ttl-span2,
+.third-ttl-span3 {
+  font-size: 33px;
+
+}
+
+.third-ttl-span1 {
+  font-family: "Amatic SC", cursive;
+}
+
+.third-ttl-span3 {
+  color: #ff4384;
+}
+
+.third-ttl-text1 {
+  padding-top: 30px;
+}
+
+.third-ttl-text3 {
+  padding-bottom: 30px;
+}
+
+
+.card {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 300px;
+  line-height: 70px;
+  font-size: 33px;
+
+}
+
+.point1,
+.point2,
+.point3 {
+  border: 2px solid #55bbbb;
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  color: #55bbbb;
+  position: relative;
+
+}
+
+.point1,
+.point2 {
+  margin-right: 20px;
+}
+
+.point1-text1,
+.point1-text2,
+.point2-text1,
+.point2-text2,
+.point3-text1,
+.point3-text2 {
+  color: black;
+  font-size: 25px;
+  font-family: "Shippori Mincho",
+    serif;
+}
+
+.point-span {
+  color: #ff4384;
+}
+
+.point-text2 {
+  font-size: 12px;
+  color: black;
+  margin-top: 20px;
+  line-height: 20px;
+}
+
+.r {
+  position: absolute;
+  top: 10px;
+  transform: translateY(-90%);
+  background-color: white;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.point1-text1,
+.point2-text1,
+.point3-text1 {
+  margin-top: 30px;
+  line-height: 35px;
+
+
+}
+
+.k {
+  line-height: 50px;
+  font-family: "Shippori Mincho",
+    serif;
+}
+
+.footer {
+  text-align: center;
+
+  font-size: 14px;
+  margin-top: 80px;
+}
